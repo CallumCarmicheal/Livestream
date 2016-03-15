@@ -1,0 +1,9 @@
+<Files ~ "\.bin$">
+							Order Allow,Deny
+							Deny from all
+						</Files>
+						
+						<Files ~ "\.dbg$">
+							Order Allow,Deny
+							Deny from all
+						</Files>
