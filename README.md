@@ -39,12 +39,12 @@ rtmp {
 			
 			# We want to attach our events, if you don't want to subscribe to an event just
 			#   comment it out with a hash-tag (#). 
-			on_publish 			http://localhost/app/RtmpEndpoint.php;
-			on_publish_done 	http://localhost/app/RtmpEndpoint.php;
-			on_done 			http://localhost/app/RtmpEndpoint.php;
-			on_play 			http://localhost/app/RtmpEndpoint.php;
-			on_play_done 		http://localhost/app/RtmpEndpoint.php;
-			on_update 			http://localhost/app/RtmpEndpoint.php;
+			on_publish          http://localhost/app/RtmpEndpoint.php;
+			on_publish_done     http://localhost/app/RtmpEndpoint.php;
+			on_done             http://localhost/app/RtmpEndpoint.php;
+			on_play             http://localhost/app/RtmpEndpoint.php;
+			on_play_done        http://localhost/app/RtmpEndpoint.php;
+			on_update           http://localhost/app/RtmpEndpoint.php;
 			
 			# Send the on_update event every 10 seconds, this as of right now 
 			# might be the only way to cut a stream midway as i am currently 
